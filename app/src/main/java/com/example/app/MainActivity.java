@@ -28,10 +28,10 @@ public class MainActivity extends Activity {
         webSettings.setJavaScriptEnabled(true);
 
         // Use remote resource
-        // mWebView.loadUrl("http://example.com");
+         mWebView.loadUrl("https://foxhound87.github.io/mobx-react-form-demo/demo");
 
         // Stop local links and redirects from opening in browser instead of WebView
-        // mWebView.setWebViewClient(new MyAppWebViewClient());
+         mWebView.setWebViewClient(new MyAppWebViewClient());
 
         // Use local resource
         // mWebView.loadUrl("file:///android_asset/www/index.html");
